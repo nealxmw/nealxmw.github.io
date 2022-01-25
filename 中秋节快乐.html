@@ -1,445 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>中秋节快乐</title>
-    <style>
-      body {
-        overflow: hidden;
-      }
-      * {
-        padding: 0px;
-        margin: 0px;
-      }
-      /* 天色 */
-      .container {
-        width: 100vw;
-        height: 100vh;
-        transition: all ease;
-        animation: nightfall 8s;
-        background: #0d1021;
-        overflow: hidden;
-      }
-      @keyframes nightfall {
-        from {
-          background: #87ceeb;
-        }
-        50% {
-          background: #708069;
-        }
-        to {
-          background: #0d1021;
-        }
-      }
-      /* 太阳 */
-      .sun-and-moon {
-        width: 200px;
-        height: 200px;
-        animation: sunfallmoonrise 8s;
-        border-radius: 50%;
-        position: absolute;
-        left: 20vw;
-        top: 10vh;
-        background: #fffaf0;
-        box-shadow: 0px 0px 20px #f9dc60;
-        transition: all 3s ease;
-        z-index: 1;
-      }
-      @keyframes sunfallmoonrise {
-        from {
-          background: #ffd700;
-          top: 10vh;
-        }
-        50% {
-          background: #ffe384;
-          top: 82vh;
-        }
-        51% {
-          background: #fffaf0;
-        }
-        to {
-          background: #fffaf0;
-          top: 10vh;
-        }
-      }
-      /* 山 */
-      .mountain-common {
-        position: absolute;
-        z-index: 9;
-        border-radius: 50%;
-        background: #232c1a;
-        animation: mountain 8s;
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>中秋节</title>
+  <style>
+    body {
+      overflow: hidden;
+    }
+
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    /* 天色 */
+    .container {
+      width: 100vw;
+      height: 100vh;
+      transition: all ease;
+      animation: nightfall 8s;
+      background: #0d1021;
+      overflow: hidden;
+    }
+
+    @keyframes nightfall {
+      from {
+        background: #87ceeb;
       }
 
-      .mountain-a {
-        width: 80vw;
+      50% {
+        background: #708069;
+      }
+
+      to {
+        background: #0d1021;
+      }
+    }
+
+    /* 太阳 */
+    .sun-and-moon {
+      width: 200px;
+      height: 200px;
+      animation: sunfallmoonrise 8s;
+      border-radius: 50%;
+      position: absolute;
+      left: 20vw;
+      top: 10vh;
+      background: #fffaf0;
+      box-shadow: 0px 0px 20px #f9dc60;
+      transition: all 3s ease;
+      z-index: 1;
+    }
+
+    @keyframes sunfallmoonrise {
+      from {
+        background: #ffd700;
+        top: 10vh;
+      }
+
+      50% {
+        background: #ffe384;
+        top: 82vh;
+      }
+
+      51% {
+        background: #fffaf0;
+      }
+
+      to {
+        background: #fffaf0;
+        top: 10vh;
+      }
+    }
+
+    /* 山 */
+    .mountain-common {
+      position: absolute;
+      z-index: 9;
+      border-radius: 50%;
+      background: #232c1a;
+      animation: mountain 8s;
+    }
+
+    .mountain-a {
+      width: 80vw;
+      height: 400px;
+      top: 80vh;
+      left: -20vw;
+    }
+
+    .mountain-b {
+      width: 100vw;
+      height: 800px;
+      top: 65vh;
+      left: 40vw;
+    }
+
+    @keyframes mountain {
+      from {
+        background: #00c957;
+      }
+
+      50% {
+        background: #385e0f;
+      }
+
+      to {
+        background: #232c1a;
+      }
+    }
+
+    /* 月亮 */
+    @keyframes moon-bigger {
+      from {
+        width: 200px;
+        height: 200px;
+        left: 20vw;
+        top: 10vh;
+      }
+
+      to {
+        width: 400px;
         height: 400px;
+        top: calc(50vh - 200px);
+        left: calc(50vw - 200px);
+      }
+    }
+
+    @keyframes mountain-down-a {
+      from {
         top: 80vh;
         left: -20vw;
       }
 
-      .mountain-b {
-        width: 100vw;
-        height: 800px;
+      to {
+        top: 115vh;
+        left: -300px;
+        opacity: 0.6;
+      }
+    }
+
+    @keyframes mountain-down-b {
+      from {
         top: 65vh;
         left: 40vw;
       }
-      @keyframes mountain {
-        from {
-          background: #00c957;
-        }
-        50% {
-          background: #385e0f;
-        }
-        to {
-          background: #232c1a;
-        }
+
+      to {
+        top: 100vh;
+        left: calc(60vw - 300px);
+        opacity: 0.6;
       }
-      /* 月亮 */
-      @keyframes moon-bigger {
-        from {
-          width: 200px;
-          height: 200px;
-          left: 20vw;
-          top: 10vh;
-        }
-        to {
-          width: 400px;
-          height: 400px;
-          top: calc(50vh - 200px);
-          left: calc(50vw - 200px);
-        }
+    }
+
+    /* 星星 */
+    .star {
+      height: 1px;
+      width: 1px;
+      background-color: #f5f5f5;
+      border-radius: 50%;
+      position: absolute;
+      animation: star-scale 2s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes star-scale {
+      from {
+        transform: scale(1, 1);
       }
-      @keyframes mountain-down-a {
-        from {
-          top: 80vh;
-          left: -20vw;
-        }
-        to {
-          top: 115vh;
-          left: -300px;
-          opacity: 0.6;
-        }
+
+      25% {
+        transform: scale(0.2, 0.2);
       }
-      @keyframes mountain-down-b {
-        from {
-          top: 65vh;
-          left: 40vw;
-        }
-        to {
-          top: 100vh;
-          left: calc(60vw - 300px);
-          opacity: 0.6;
-        }
+
+      50% {
+        transform: scale(1, 1);
       }
-      /* 星星 */
-      .star {
-        height: 1px;
-        width: 1px;
-        background-color: #f5f5f5;
-        border-radius: 50%;
-        position: absolute;
-        animation: star-scale 2s;
-        animation-iteration-count: infinite;
+
+      25% {
+        transform: scale(3, 3);
       }
-      @keyframes star-scale {
-        from {
-          transform: scale(1, 1);
-        }
-        25% {
-          transform: scale(0.2, 0.2);
-        }
-        50% {
-          transform: scale(1, 1);
-        }
-        25% {
-          transform: scale(3, 3);
-        }
-        to {
-          transform: scale(1, 1);
-        }
+
+      to {
+        transform: scale(1, 1);
       }
-      /* 流星划过 */
-      #meteors {
-        z-index: 9;
-        margin: 0 auto;
-        position: fixed;
-        top: 0;
-        left: 0;
+    }
+
+    /* 流星划过 */
+    #meteors {
+      z-index: 9;
+      margin: 0 auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    /*流星形状*/
+    .meteor {
+      display: block;
+      opacity: 0;
+      position: relative;
+      left: 90%;
+      width: 1px;
+      background: transparent;
+      animation: meteor-fall 2s linear infinite;
+    }
+
+    /*流星尾巴*/
+    .meteor:after {
+      content: '';
+      display: block;
+      border: 1px solid #fff;
+      border-width: 0px 100px 2px 150px;
+      left: 5px;
+      transform: rotate(-45deg);
+      border-color: transparent transparent transparent #eee;
+    }
+
+    /*流星动画*/
+    @keyframes meteor-fall {
+      0% {
+        opacity: 0;
+        transform: scale(0.5) translate3d(0, 0);
+      }
+
+      50% {
+        opacity: 1;
+        transform: translate3d(-200px, 200px, 0);
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-300px, 300px, 0);
+      }
+    }
+
+    /* 嫦娥 */
+    #nv {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 8;
+      display: none;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes go {
+      0% {
         right: 0;
         bottom: 0;
-      }
-      /*流星形状*/
-      .meteor {
-        display: block;
-        opacity: 0;
-        position: relative;
-        left: 90%;
-        width: 1px;
-        background: transparent;
-        animation: meteor-fall 2s linear infinite;
-      }
-      /*流星尾巴*/
-      .meteor:after {
-        content: '';
-        display: block;
-        border: 1px solid #fff;
-        border-width: 0px 100px 2px 150px;
-        left: 5px;
-        transform: rotate(-45deg);
-        border-color: transparent transparent transparent #eee;
-      }
-      /*流星动画*/
-      @keyframes meteor-fall {
-        0% {
-          opacity: 0;
-          transform: scale(0.5) translate3d(0, 0);
-        }
-        50% {
-          opacity: 1;
-          transform: translate3d(-200px, 200px, 0);
-        }
-        100% {
-          opacity: 0;
-          transform: scale(1.2) translate3d(-300px, 300px, 0);
-        }
-      }
-      /* 嫦娥 */
-      #nv {
         width: 150px;
         height: 150px;
-        position:absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 8;
-        display: none;
-        animation-fill-mode:forwards;
+        opacity: 1;
       }
-      @keyframes go {
-        0% {
-          right: 0;
-          bottom: 0;
-          width: 150px;
-          height: 150px;
-          opacity: 1;
-        }
-        100% {
-          right: 45vw;
-          bottom: 40vh;
-          width: 50px;
-          height: 50px;
-          opacity: 0;
-        }
-      }
-      /* 诗句 */
-      .poetry div {
-        width: 60px;
-        height: 60px;
-        margin-top: 6px;
-      }
-      .poetry-top {
-        position: absolute;
-        top: 0;
-        right: 30px;
-        z-index: 3;
-      }
-      .poetry-down {
-        position: absolute;
-        top: 0;
-        right: calc(10vw + 40px);
-        z-index: 3;
-      }
-      .poetry-center {
-        position: absolute;
-        top: 32vh;
-        left: calc(50vw - 30px);
-        z-index: 3;
-      }
-    </style>
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="sun-and-moon"></div>
-      <div class="mountain-common mountain-a"></div>
-      <div class="mountain-common mountain-b"></div>
-      <div id="meteors"></div>
-      <img id="nv" src="images/ce.gif"></img>
-      <div class="poetry-top poetry">
-        <div id="dan"></div>
-        <div id="yuan"></div>
-        <div id="ren"></div>
-        <div id="chang"></div>
-        <div id="jiu"></div>
-      </div>
-      <div class="poetry-down poetry">
-        <div id="qian"></div>
-        <div id="li"></div>
-        <div id="gong"></div>
-        <div id="chan"></div>
-        <div id="juan"></div>
-      </div>
-      <div class="poetry-center poetry">
-        <div id="zhong"></div>
-        <div id="qiu"></div>
-        <div id="kuai"></div>
-        <div id="le"></div>
-      </div>
+      100% {
+        right: 45vw;
+        bottom: 40vh;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+      }
+    }
+
+    /* 诗句 */
+    .poetry div {
+      width: 60px;
+      height: 60px;
+      margin-top: 6px;
+    }
+
+    .poetry-top {
+      position: absolute;
+      top: 0;
+      right: 30px;
+      z-index: 3;
+    }
+
+    .poetry-down {
+      position: absolute;
+      top: 0;
+      right: calc(10vw + 40px);
+      z-index: 3;
+    }
+
+    .poetry-center {
+      position: absolute;
+      top: 32vh;
+      left: calc(50vw - 30px);
+      z-index: 3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="sun-and-moon"></div>
+    <div class="mountain-common mountain-a"></div>
+    <div class="mountain-common mountain-b"></div>
+    <div id="meteors"></div>
+    <img id="nv" src="images/ce.gif"></img>
+    <div class="poetry-top poetry">
+      <div id="dan"></div>
+      <div id="yuan"></div>
+      <div id="ren"></div>
+      <div id="chang"></div>
+      <div id="jiu"></div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.2/dist/hanzi-writer.min.js"></script>
-    <script>
-      // 月亮近景
-      const timerA = setTimeout(() => {
-        clearTimeout(timerA)
-        // 月亮变大
-        const moon = document.getElementsByClassName('sun-and-moon')[0]
-        moon.style.animation = 'moon-bigger 5s'
-        moon.style.width = '400px'
-        moon.style.height = '400px'
-        moon.style.top = 'calc( 50vh - 200px )'
-        moon.style.left = 'calc( 50vw - 200px )'
-        // 山色消失
-        const mountainList = document.getElementsByClassName('mountain-common')
-        mountainList[0].style.animation = 'mountain-down-a 5s'
-        mountainList[0].style.top = '100vh'
-        mountainList[1].style.animation = 'mountain-down-b 5s'
-        mountainList[1].style.top = '100vh'
-        // 生成星星
-        const arr = new Array(60)
-        for (const item of arr) {
-          const dom = document.createElement('div')
-          dom.className = 'star'
-          dom.style.left = `${Math.random() * 100}vw`
-          dom.style.top = `${Math.random() * 100}vh`
-          setTimeout(() => {
-            document.body.appendChild(dom)
-          }, 15000 * Math.random())
+    <div class="poetry-down poetry">
+      <div id="qian"></div>
+      <div id="li"></div>
+      <div id="gong"></div>
+      <div id="chan"></div>
+      <div id="juan"></div>
+    </div>
+    <div class="poetry-center poetry">
+      <div id="zhong"></div>
+      <div id="qiu"></div>
+      <div id="kuai"></div>
+      <div id="le"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.2/dist/hanzi-writer.min.js"></script>
+  <script>
+    // 月亮近景
+    const timerA = setTimeout(() => {
+      clearTimeout(timerA)
+      // 月亮变大
+      const moon = document.getElementsByClassName('sun-and-moon')[0]
+      moon.style.animation = 'moon-bigger 5s'
+      moon.style.width = '400px'
+      moon.style.height = '400px'
+      moon.style.top = 'calc( 50vh - 200px )'
+      moon.style.left = 'calc( 50vw - 200px )'
+      // 山色消失
+      const mountainList = document.getElementsByClassName('mountain-common')
+      mountainList[0].style.animation = 'mountain-down-a 5s'
+      mountainList[0].style.top = '100vh'
+      mountainList[1].style.animation = 'mountain-down-b 5s'
+      mountainList[1].style.top = '100vh'
+      // 生成星星
+      const arr = new Array(60)
+      for (const item of arr) {
+        const dom = document.createElement('div')
+        dom.className = 'star'
+        dom.style.left = `${Math.random() * 100}vw`
+        dom.style.top = `${Math.random() * 100}vh`
+        setTimeout(() => {
+          document.body.appendChild(dom)
+        }, 15000 * Math.random())
+      }
+      // 流星划过
+      const timerB = setTimeout(() => {
+        clearTimeout(timerB)
+        var meteors = document.getElementById('meteors') //获取stars Box
+        var meteor = document.getElementsByClassName('meteor') //获取全部流星
+        var mywidth = document.documentElement.clientWidth //获取当前可视宽度
+        var myheight = document.documentElement.clientHeight //获取当前可视高度
+        //初始化流星个数 和 left,top值
+        for (let i = 0; i < 6; i++) {
+          let newStar = document.createElement('div')
+          newStar.className = 'meteor'
+          newStar.style.top =
+            randomNumber(myheight * 0.2, -myheight * 0.3) + 'px'
+          newStar.style.left = randomNumber(mywidth * 1.5, 0) + 'px'
+          meteors.appendChild(newStar)
         }
-        // 流星划过
-        const timerB = setTimeout(() => {
-          clearTimeout(timerB)
-          var meteors = document.getElementById('meteors') //获取stars Box
-          var meteor = document.getElementsByClassName('meteor') //获取全部流星
-          var mywidth = document.documentElement.clientWidth //获取当前可视宽度
-          var myheight = document.documentElement.clientHeight //获取当前可视高度
-          //初始化流星个数 和 left,top值
-          for (let i = 0; i < 6; i++) {
-            let newStar = document.createElement('div')
-            newStar.className = 'meteor'
-            newStar.style.top =
-              randomNumber(myheight * 0.2, -myheight * 0.3) + 'px'
-            newStar.style.left = randomNumber(mywidth * 1.5, 0) + 'px'
-            meteors.appendChild(newStar)
+        //随机函数
+        function randomNumber(max, min) {
+          let randomnum = Math.floor(
+            Math.random() * (max - min + 1) + min
+          )
+          return randomnum
+        }
+        // 给流星添加动画延时
+        for (let i = 0, len = meteor.length; i < len; i++) {
+          meteor[i].style.animationDelay =
+            i % 2 == 0 ? '0s' : i * 0.8 + 's'
+        }
+        // 写诗
+        const timerC = setTimeout(() => {
+          clearTimeout(timerC)
+          // 嫦娥奔月
+          var nv = document.getElementById('nv')
+          nv.style.display = 'block'
+          nv.style.animation = 'go 10s'
+          setTimeout(() => {
+            nv.style.display = 'none'
+          }, 10000)
+          const WRITER_CONFIG = {
+            width: 60,
+            height: 60,
+            padding: 2,
+            delayBetweenStrokes: 0,
+            strokeAnimationSpeed: 2,
+            showCharacter: false,
+            showOutline: false,
+            strokeColor: '#FFE384'
           }
-          //随机函数
-          function randomNumber(max, min) {
-            let randomnum = Math.floor(
-              Math.random() * (max - min + 1) + min
+          // 定义诗句
+          const getWriterList = () => {
+            let writerList = []
+            writerList.push(
+              HanziWriter.create('dan', '但', WRITER_CONFIG)
             )
-            return randomnum
+            writerList.push(
+              HanziWriter.create('yuan', '愿', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('ren', '人', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('chang', '长', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('jiu', '久', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('qian', '千', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('li', '里', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('gong', '共', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('chan', '婵', WRITER_CONFIG)
+            )
+            writerList.push(
+              HanziWriter.create('juan', '娟', WRITER_CONFIG)
+            )
+            return writerList
           }
-          // 给流星添加动画延时
-          for (let i = 0, len = meteor.length; i < len; i++) {
-            meteor[i].style.animationDelay =
-              i % 2 == 0 ? '0s' : i * 0.8 + 's'
+          const generateAnimateWriter = async writerList => {
+            const writerCount = writerList.length
+            for (const writer of writerList) {
+              await writer.animateCharacter()
+            }
           }
-          // 写诗
-          const timerC = setTimeout(() => {
-            clearTimeout(timerC)
-            // 嫦娥奔月
-            var nv = document.getElementById('nv')
-            nv.style.display = 'block'
-            nv.style.animation = 'go 10s'
-            setTimeout(() => {
-              nv.style.display = 'none'
-            }, 10000)
-            const WRITER_CONFIG = {
-              width: 60,
-              height: 60,
-              padding: 2,
-              delayBetweenStrokes: 0,
-              strokeAnimationSpeed: 2,
-              showCharacter: false,
-              showOutline: false,
-              strokeColor: '#FFE384'
+          // 开始写诗
+          generateAnimateWriter(getWriterList())
+          // 定义结束语
+          const getEndWrod = () => {
+            let endWrod = []
+            endWrod.push(
+              HanziWriter.create('zhong', '中', WRITER_CONFIG)
+            )
+            endWrod.push(
+              HanziWriter.create('qiu', '秋', WRITER_CONFIG)
+            )
+            endWrod.push(
+              HanziWriter.create('kuai', '快', WRITER_CONFIG)
+            )
+            endWrod.push(
+              HanziWriter.create('le', '乐', WRITER_CONFIG)
+            )
+            return endWrod
+          }
+          const generateAnimateEnd = async endWrod => {
+            const writerCount = endWrod.length
+            for (const writer of endWrod) {
+              await writer.animateCharacter()
             }
-            // 定义诗句
-            const getWriterList = () => {
-              let writerList = []
-              writerList.push(
-                HanziWriter.create('dan', '但', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('yuan', '愿', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('ren', '人', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('chang', '长', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('jiu', '久', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('qian', '千', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('li', '里', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('gong', '共', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('chan', '婵', WRITER_CONFIG)
-              )
-              writerList.push(
-                HanziWriter.create('juan', '娟', WRITER_CONFIG)
-              )
-              return writerList
-            }
-            const generateAnimateWriter = async writerList => {
-              const writerCount = writerList.length
-              for (const writer of writerList) {
-                await writer.animateCharacter()
-              }
-            }
-            // 开始写诗
-            generateAnimateWriter(getWriterList())
-            // 定义结束语
-            const getEndWrod = () => {
-              let endWrod= []
-              endWrod.push(
-                HanziWriter.create('zhong', '中', WRITER_CONFIG)
-              )
-              endWrod.push(
-                HanziWriter.create('qiu', '秋', WRITER_CONFIG)
-              )
-              endWrod.push(
-                HanziWriter.create('kuai', '快', WRITER_CONFIG)
-              )
-              endWrod.push(
-                HanziWriter.create('le', '乐', WRITER_CONFIG)
-              )
-              return endWrod
-            }
-            const generateAnimateEnd = async endWrod => {
-              const writerCount = endWrod.length
-              for (const writer of endWrod) {
-                await writer.animateCharacter()
-              }
-            }
-            setTimeout(() => {
-              generateAnimateEnd(getEndWrod())
-            }, 9000)
-          }, 1000)
-        }, 5000)
-      }, 9000)
-    </script>
-  </body>
+          }
+          setTimeout(() => {
+            generateAnimateEnd(getEndWrod())
+          }, 9000)
+        }, 1000)
+      }, 5000)
+    }, 9000)
+  </script>
+</body>
+
 </html>
