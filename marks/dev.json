@@ -1,0 +1,85 @@
+[
+  {
+    "category": "工作",
+    "links": [
+      {
+        "name": "安卓调试",
+        "url": "chrome://inspect/#devices"
+      },
+      {
+        "name": "微信公众平台",
+        "url": "https://mp.weixin.qq.com/"
+      },
+      {
+        "name": "微信小程序",
+        "url": "https://developers.weixin.qq.com/ebook?action=get_post_info&docid=0002c8979d0678bb00862b8595b00a"
+      },
+      {
+        "name": "浦惠租原型图",
+        "url": "https://www.figma.com/file/vZxFsYHMuiHdtgw1HrRAwL/%E5%B0%8F%E7%A8%8B%E5%BA%8F?type=design&mode=design"
+      }
+    ]
+  },
+  {
+    "category": "技术栈",
+    "links": [
+      {
+        "name": "Vite 官方文档",
+        "url": "https://cn.vitejs.dev/guide/"
+      },
+      {
+        "name": "Layui文档",
+        "url": "https://layui.itze.cn/doc/index.html"
+      },
+      {
+        "name": "Bootstrap v5",
+        "url": "https://v5.bootcss.com/docs/forms/select/"
+      },
+      {
+        "name": "Swiper",
+        "url": "https://www.swiper.com.cn/usage/index.html"
+      },
+      {
+        "name": "GitHub Docs",
+        "url": "https://docs.github.com/en/rest/reference/repos"
+      },
+      {
+        "name": "Taro 文档",
+        "url": "https://docs.taro.zone/docs"
+      },
+      {
+        "name": "octokit/rest.js",
+        "url": "https://octokit.github.io/rest.js/v18"
+      },
+      {
+        "name": "AWS Doc",
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html"
+      },
+      {
+        "name": "图片修改 (Compressor.js)",
+        "url": "https://github.com/fengyuanchen/compressorjs#table-of-contents"
+      },
+      {
+        "name": "JNPF低代码开发",
+        "url": "https://www.yinmaisoft.com/"
+      },
+      {
+        "name": "Echarts",
+        "url": "https://echarts.apache.org/zh/index.html"
+      },
+      {
+        "name": "milkdown",
+        "url": "https://milkdown.dev/"
+      }
+    ]
+  },
+  {
+    "category": "React",
+    "links": [
+      {
+        "name": "React 官方文档",
+        "url": "https://zh-hans.react.dev/learn"
+      }
+    ]
+  }
+]

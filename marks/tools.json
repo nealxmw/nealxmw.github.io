@@ -1,0 +1,93 @@
+[
+  {
+    "category": "工具",
+    "links": [
+      {
+        "name": "渐变色",
+        "url": "http://color.oulu.me/"
+      },
+      {
+        "name": "Diffchecker",
+        "url": "https://www.diffchecker.com/#"
+      },
+      {
+        "name": "在线小工具",
+        "url": "https://zxxgj.net/"
+      },
+      {
+        "name": "彩云天气",
+        "url": "https://platform.caiyunapp.com/dashboard/index"
+      },
+      {
+        "name": "天行数据",
+        "url": "https://www.tianapi.com/console/"
+      },
+      {
+        "name": "AutoDL云计算机",
+        "url": "https://www.autodl.com/home"
+      },
+      {
+        "name": "短链接",
+        "url": "https://app.bitly.com/"
+      }
+    ]
+  },
+  {
+    "category": "图片操作",
+    "links": [
+      {
+        "name": "图片压缩",
+        "url": "https://tinypng.com/"
+      },
+      {
+        "name": "免费抠图",
+        "url": "https://www.remove.bg/"
+      },
+      {
+        "name": "像素化照片在线",
+        "url": "https://mass-images.pro/zh/batch/tpl/pixelization"
+      },
+      {
+        "name": "Compressor.js",
+        "url": "https://fengyuanchen.github.io/compressorjs/"
+      },
+      {
+        "name": "裁剪图片",
+        "url": "https://www.iloveimg.com/zh-cn/crop-image"
+      },
+      {
+        "name": "图片放大修复",
+        "url": "https://www.waifu2x.net/"
+      },
+      {
+        "name": "即时Sketch",
+        "url": "https://ad.js.design/special/sketch/"
+      },
+      {
+        "name": "手撸头像",
+        "url": "https://benisland.neocities.org/petpet/"
+      },
+      {
+        "name": "图转动画",
+        "url": "https://limgx.com/zh-CN"
+      }
+    ]
+  },
+  {
+    "category": "格式转换",
+    "links": [
+      {
+        "name": "文档格式转换",
+        "url": "https://convert.io/cn/archive-converter"
+      },
+      {
+        "name": "音视频剪辑/处理",
+        "url": "https://online-video-cutter.com/cn/video-editor"
+      },
+      {
+        "name": "文件格式转换",
+        "url": "https://onlineconvertfree.com/zh/convert/txt/"
+      }
+    ]
+  }
+]

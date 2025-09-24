@@ -1,0 +1,86 @@
+[
+  {
+    "category": "图标",
+    "links": [
+      {
+        "name": "图标",
+        "url": "https://www.iconfont.cn/"
+      },
+      {
+        "name": "loading图",
+        "url": "https://www.intogif.com/loading/"
+      },
+      {
+        "name": "Mac图标",
+        "url": "https://macosicons.com/#/"
+      },
+      {
+        "name": "破解软件",
+        "url": "https://www.v8gb.com/"
+      }
+    ]
+  },
+  {
+    "category": "应用",
+    "links": [
+      {
+        "name": "365应用",
+        "url": "https://www.better365.cn/apps.html?statId=51"
+      },
+      {
+        "name": "粘贴板",
+        "url": "https://clipy-app.com/"
+      },
+      {
+        "name": "图片压缩",
+        "url": "https://imageoptim.com/mac"
+      },
+      {
+        "name": "谷歌翻译",
+        "url": "https://github.com/MoeFE/GoogleTranslate"
+      },
+      {
+        "name": "视频播放器",
+        "url": "https://www.iina.io/"
+      }
+    ]
+  },
+  {
+    "category": "科学上网",
+    "links": [
+      {
+        "name": "接码平台",
+        "url": "https://sms-activate.org/cn"
+      },
+      {
+        "name": "VPN工具",
+        "url": "https://www.v2ray.com/awesome/tools.html"
+      },
+      {
+        "name": "猫熊官网",
+        "url": "https://maoxiongnet.github.io/maoxiong/"
+      },
+      {
+        "name": "猫熊",
+        "url": "https://mxwljsq.com/user"
+      },
+      {
+        "name": "猫猫",
+        "url": "https://sakuracat.link/dashboard"
+      },
+      {
+        "name": "一元",
+        "url": "https://xn--4gq62f52gdss.ink/#/dashboard"
+      }
+    ]
+  },
+  {
+    "category": "车机系统",
+    "links": [
+      {
+        "name": "HYWebview",
+        "url": "https://lynkco.hyphp.cn/t/173.html"
+      }
+    ]
+  }
+]

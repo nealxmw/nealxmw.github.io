@@ -1,0 +1,59 @@
+[
+  {
+    "category": "JS",
+    "links": [
+      {
+        "name": "ES 特性大汇总",
+        "url": "https://juejin.cn/post/6986087239554072583"
+      },
+      {
+        "name": "Javascript闭包",
+        "url": "https://juejin.cn/post/6959510590939201573"
+      },
+      {
+        "name": "美化项目库",
+        "url": "https://juejin.cn/post/7013510224896065550"
+      },
+      {
+        "name": "JavaScript教程",
+        "url": "https://zh.javascript.info/"
+      },
+      {
+        "name": "async/await",
+        "url": "https://juejin.cn/post/7007031572238958629"
+      },
+      {
+        "name": "33个非常实用的JavaScript一行代码，建议收藏！ - 掘金",
+        "url": "https://juejin.cn/post/7025771605422768159"
+      },
+      {
+        "name": "一年Node.js开发经验总结 - 掘金",
+        "url": "https://juejin.cn/post/6858910962339856397"
+      },
+      {
+        "name": "自己动手实现Promise - 掘金",
+        "url": "https://juejin.cn/post/6885295302933217294"
+      },
+      {
+        "name": "入门篇",
+        "url": "https://wangdoc.com/javascript/basic/"
+      },
+      {
+        "name": "ES6 入门",
+        "url": "https://es6.ruanyifeng.com/"
+      },
+      {
+        "name": "JavaScript 30 Days",
+        "url": "https://javascript30.com/"
+      },
+      {
+        "name": "(10条消息) js流程控制——Lazyman的两种实现方式_Henry_楠的博客-CSDN博客",
+        "url": "https://blog.csdn.net/haonan_z/article/details/108477062?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-108477062-blog-124718557.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-108477062-blog-124718557.pc_relevant_recovery_v2&utm_relevant_index=1"
+      },
+      {
+        "name": "学TS",
+        "url": "https://juejin.cn/post/7211358106629750841"
+      }
+    ]
+  }
+]

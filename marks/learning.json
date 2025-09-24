@@ -1,0 +1,93 @@
+[
+  {
+    "category": "AIGC",
+    "links": [
+      {
+        "name": "OpenAI",
+        "url": "https://platform.openai.com/apps"
+      },
+      {
+        "name": "模型C站",
+        "url": "https://civitai.com"
+      },
+      {
+        "name": "提示词生成器",
+        "url": "https://github.com/WolfChen1996/NovelAI-tag-generator"
+      },
+      {
+        "name": "CID IPFS",
+        "url": "https://cid.ipfs.io/"
+      },
+      {
+        "name": "NFT下载",
+        "url": "https://auth.alchemy.com/"
+      },
+      {
+        "name": "OpenSea",
+        "url": "https://opensea.io/"
+      }
+    ]
+  },
+  {
+    "category": "API",
+    "links": [
+      {
+        "name": "网易云音乐API",
+        "url": "https://cloud.tencent.com/developer/article/1543945"
+      }
+    ]
+  },
+  {
+    "category": "相关分享",
+    "links": [
+      {
+        "name": "已购课程",
+        "url": "https://kaiwu.lagou.com/learn"
+      },
+      {
+        "name": "交差并补",
+        "url": "https://www.hangge.com/blog/cache/detail_1862.html"
+      },
+      {
+        "name": "三元同学春招",
+        "url": "https://juejin.cn/post/6844904106537009159"
+      },
+      {
+        "name": "简约的在线简历",
+        "url": "https://github.com/gwuhaolin/resume"
+      },
+      {
+        "name": "hexo-theme-yilia",
+        "url": "https://github.com/litten/hexo-theme-yilia"
+      },
+      {
+        "name": "js面试总结",
+        "url": "https://juejin.cn/post/6984228477184507911"
+      },
+      {
+        "name": "前端装逼技巧 108 式",
+        "url": "https://juejin.cn/post/6996850474175430686"
+      },
+      {
+        "name": "前端基础知识点",
+        "url": "https://www.1024nav.com/front-junior/"
+      },
+      {
+        "name": "【字节·视频云】前端提前批3面",
+        "url": "https://mp.weixin.qq.com/s/yyusXX9sMBnGKS-1ru8ZPA"
+      },
+      {
+        "name": "入门教程: 认识 React – React",
+        "url": "https://react.docschina.org/tutorial/tutorial.html"
+      },
+      {
+        "name": "原生拖拽太拉跨了，纯JS自己手写一个拖拽效果，纵享丝滑 - 掘金",
+        "url": "https://juejin.cn/post/7145447742515445791"
+      },
+      {
+        "name": "前端老司机 70+ 实用工具网站",
+        "url": "https://juejin.cn/post/7129412947931037732"
+      }
+    ]
+  }
+]

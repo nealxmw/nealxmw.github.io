@@ -1,0 +1,128 @@
+[
+  {
+    "category": "Vue",
+    "links": [
+      {
+        "name": "Vue",
+        "url": "https://cn.vuejs.org/"
+      },
+      {
+        "name": "Vue2",
+        "url": "https://v2.cn.vuejs.org/"
+      },
+      {
+        "name": "Pinia",
+        "url": "https://pinia.web3doc.top/"
+      },
+      {
+        "name": "Element",
+        "url": "https://element.eleme.cn/#/zh-CN/component/installation"
+      },
+      {
+        "name": "Element+",
+        "url": "https://element-plus.org/zh-CN/guide/installation.html"
+      },
+      {
+        "name": "vant",
+        "url": "https://vant-ui.github.io/vant/v2/#/zh-CN/"
+      },
+      {
+        "name": "ECharts",
+        "url": "https://echarts.apache.org/zh/index.html"
+      }
+    ]
+  },
+  {
+    "category": "相关分享",
+    "links": [
+      {
+        "name": "vue项目体积小速度快 - 掘金",
+        "url": "https://juejin.cn/post/6919638463168020488"
+      },
+      {
+        "name": "50个Vue知识点",
+        "url": "https://juejin.cn/post/6984210440276410399"
+      },
+      {
+        "name": "Vue3学习",
+        "url": "https://juejin.cn/post/6955129410705948702"
+      },
+      {
+        "name": "Vue3+Typescript 踏坑小记",
+        "url": "https://juejin.cn/post/6963429394102616077"
+      },
+      {
+        "name": "精读Vue官方文档",
+        "url": "https://juejin.cn/post/6984972031599050788"
+      },
+      {
+        "name": "组件通信的8种方式",
+        "url": "https://juejin.cn/post/7022054075411726366?share_token=8b723634-13ca-461a-b0aa-deb03eb278d1"
+      },
+      {
+        "name": "快速掌握vue 3",
+        "url": "https://juejin.cn/post/6887359442354962445"
+      },
+      {
+        "name": "从0搭建一套规范的 Vue3.x 项目",
+        "url": "https://juejin.cn/post/6951649464637636622#heading-19"
+      },
+      {
+        "name": "从0开始vue3项目搭建 - 掘金",
+        "url": "https://juejin.cn/post/7010212118779674637#heading-2"
+      },
+      {
+        "name": "vue初始化webpack项目",
+        "url": "https://www.cnblogs.com/technicist/p/13376840.html"
+      },
+      {
+        "name": "webpack4搭建vue2多页应用框架",
+        "url": "https://juejin.cn/post/6844903648422526983"
+      },
+      {
+        "name": "Vue 插件",
+        "url": "https://juejin.cn/post/7052845713255825438"
+      },
+      {
+        "name": "后台管理系统",
+        "url": "https://juejin.cn/post/7052195023311339527"
+      },
+      {
+        "name": "vuex页面刷新数据丢失",
+        "url": "https://juejin.cn/post/7061858778756415519"
+      },
+      {
+        "name": "Vue源码解析",
+        "url": "https://juejin.cn/column/6969563635194527758"
+      },
+      {
+        "name": "Vue动态组件 - 简书",
+        "url": "https://www.jianshu.com/p/ff78c48a25b9"
+      },
+      {
+        "name": "2022 年值得推荐的 Vue 库！ - 掘金",
+        "url": "https://juejin.cn/post/7124128574029692959"
+      },
+      {
+        "name": "点击页面元素跳转IDE对应代码，试试这几个工具！",
+        "url": "https://mp.weixin.qq.com/s/i0Rd4t24Xi0zgmWLeLmplg?st=C6A49695DC30E3D092D8C16828D6F34DAE24CD6A44797FD536E943B791202B9248431F7494435A164E4C09F25E52D94767CB0DE6BC6295977381D37069F415ADF3BD04EFD8653CBEA4CD628569A42C1C71F2CE354B0106E72B6FD899A34CC09D0DF445D3A4601B09C9D8E9C3B8079FD22FC8A9FFB7EFF80C5DA73D4B9CDF58A609343A70F79C8BD3C23B1B26B213190115191C53D3636830A6AE931A0CD20E9FBD80C27CDFCFA8631149897472BD8D56688FAD9C89484A71788CDBEFE6C53C842EB449271E6A5CC990B524ECFED8DF275DA06780A3ACA58916376184FE93A482&vid=1688856833318233&cst=A1A58CF9864EA534AF7868430B5BC9D85568AE1E7DFC435762B5446BCB9256AC59CA47F618E731167261D7B030D1C83A&deviceid=ec87a746-d439-48d9-a14f-97b23a36ab36&version=4.0.0.99024&platform=mac"
+      },
+      {
+        "name": "唱片播放器",
+        "url": "https://github.com/peal-L/record-player"
+      },
+      {
+        "name": "vite.config.js配置",
+        "url": "http://www.qb5200.com/article/475323.html"
+      },
+      {
+        "name": "xy-admin/src at master · mengxianghan/xy-admin",
+        "url": "https://github.com/mengxianghan/xy-admin/tree/master/src"
+      },
+      {
+        "name": "vue页面中添加Google AdSense的正确方法",
+        "url": "https://www.coderbbb.com/articles/50"
+      }
+    ]
+  }
+]

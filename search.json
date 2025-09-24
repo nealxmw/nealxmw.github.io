@@ -1,0 +1,18 @@
+[
+  {
+    "label": "谷歌",
+    "value": "https://www.google.com/search?q="
+  },
+  {
+    "label": "百度",
+    "value": "https://www.baidu.com/s?wd="
+  },
+  {
+    "label": "知乎",
+    "value": "https://www.zhihu.com/search?q="
+  },
+  {
+    "label": "Spotify",
+    "value": "https://open.spotify.com/search/"
+  }
+]

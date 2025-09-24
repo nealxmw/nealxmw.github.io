@@ -1,0 +1,77 @@
+[
+  {
+    "category": "论坛",
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "掘金",
+        "url": "https://juejin.cn/frontend"
+      },
+      {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/follow"
+      },
+      {
+        "name": "热榜",
+        "url": "https://momoyu.cc/"
+      }
+    ]
+  },
+  {
+    "category": "资讯",
+    "links": [
+      {
+        "name": "油价",
+        "url": "http://www.qiyoujiage.com/"
+      },
+      {
+        "name": "汽车",
+        "url": "https://www.autohome.com.cn/shanghai/"
+      },
+      {
+        "name": "摸鱼",
+        "url": "https://juejin.cn/pins/club/6824710203301167112"
+      },
+      {
+        "name": "树洞",
+        "url": "https://juejin.cn/pins/club/6824710203112423437"
+      },
+      {
+        "name": "微博",
+        "url": "https://weibo.com/"
+      },
+      {
+        "name": "知乎热榜",
+        "url": "https://www.zhihu.com/hot"
+      },
+      {
+        "name": "头条",
+        "url": "https://www.toutiao.com/"
+      },
+      {
+        "name": "卡多多",
+        "url": "https://ka.kaduoduohk.com/agent/index.php"
+      }
+    ]
+  },
+  {
+    "category": "媒体",
+    "links": [
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com/?"
+      },
+      {
+        "name": "在线游戏",
+        "url": "https://poki.cn"
+      },
+      {
+        "name": "安娜档案",
+        "url": "https://zh.annas-archive.org"
+      }
+    ]
+  }
+]
